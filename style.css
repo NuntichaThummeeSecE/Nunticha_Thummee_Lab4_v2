@@ -179,8 +179,7 @@ aside.right_column {
     padding-right: 5%;
 }
 
-#IL1,
-#IL2 {
+#illustration img {
     padding: 10%;
 }
 
@@ -210,4 +209,8 @@ tbody{
 
 #container2_1 img:hover{
     transform: scale(1.5);
+}
+
+#illustration img:hover {
+    transform: scale(2.0);
 }
