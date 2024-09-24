@@ -146,17 +146,16 @@ img {
 }
 
 aside.right_column{
-    background-color: #a550ff;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-right: 5%;
 }
 
 #video{
     border-radius: 20px;
-    margin-left: auto;
 }
 
 #left_column1 {
@@ -178,4 +177,21 @@ aside.right_column{
 
 #IL1,#IL2{
     padding: 10%;
+}
+
+#container2_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+img:hover{
+    width: 220;
+    height: auto;
+}
+
+#profile_pic{
+    margin-bottom: 10%;
 }
