@@ -146,14 +146,17 @@ img {
 }
 
 aside.right_column{
+    background-color: #a550ff;
     display: flex;
     flex-direction: row;
-    padding: 5%;
-    padding-right: 7%;
+    align-items: flex-end;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #video{
     border-radius: 20px;
+    margin-left: auto;
 }
 
 #left_column1 {
@@ -169,4 +172,10 @@ aside.right_column{
 #illustration{
     display: flex;
     flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#IL1,#IL2{
+    padding: 10%;
 }
