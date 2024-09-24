@@ -214,3 +214,10 @@ tbody{
 #illustration img:hover {
     transform: scale(2.0);
 }
+
+#container2{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+}
