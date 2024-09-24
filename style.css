@@ -4,7 +4,8 @@ body {
 
 h1,
 h3,
-h5 {
+h5,
+td {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
 }
@@ -57,11 +58,12 @@ nav a:hover {
 
 #follow {
     font-size: small;
+    font-weight: 10%;
 }
 
 h5,
 footer {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a {
@@ -83,10 +85,12 @@ a {
 
 #follow {
     margin-right: 1%;
+    font-weight: 10;
 }
 
 #credit {
     text-align: center;
+    font-weight: 10;
 }
 
 
@@ -145,7 +149,7 @@ img {
     margin-right: 2%;
 }
 
-aside.right_column{
+aside.right_column {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -154,7 +158,7 @@ aside.right_column{
     padding-right: 5%;
 }
 
-#video{
+#video {
     border-radius: 20px;
 }
 
@@ -168,18 +172,19 @@ aside.right_column{
     animation-delay: 0;
 }
 
-#illustration{
+#illustration {
     display: flex;
     flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-#IL1,#IL2{
+#IL1,
+#IL2 {
     padding: 10%;
 }
 
-#container2_1{
+#container2_1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -187,11 +192,18 @@ aside.right_column{
     padding-right: 5%;
 }
 
-img:hover{
-    width: 220;
-    height: auto;
+#profile_pic {
+    margin-bottom: 10%;
 }
 
-#profile_pic{
-    margin-bottom: 10%;
+table{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+tbody{
+    font-weight: lighter;
 }
